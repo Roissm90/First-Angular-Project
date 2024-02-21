@@ -1,5 +1,5 @@
 <app-header></app-header>
-<section class="sctn-detail" [ngClass]="detailCharacter.casaNombre">
+<section class="sctn-detail" [ngClass]="detailCharacter.casaNombre" *ngIf="detailCharacter">
     <h2>{{detailCharacter.nombre}}</h2>
     <div class="container__picture">
         <img [src]="detailCharacter.picture" alt="">
