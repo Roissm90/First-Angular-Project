@@ -4,7 +4,6 @@ section.sctn-detail {
   width: 90%;
   height: 400px;
   max-width: 600px;
-
   position: relative;
   margin: 100px auto;
   border-radius: 25px;
@@ -13,14 +12,12 @@ section.sctn-detail {
   > h2 {
     font-weight: bold;
     color: $bg-night-mode;
-
     width: 90%;
     position: absolute;
     top: 20px;
     left: 50%;
     z-index: 3;
     transform: translateX(-50%);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,13 +100,13 @@ section.sctn-detail {
         position: relative;
 
         &.horrocrux-list {
-            flex-direction: row;
-            flex-wrap: wrap;
+          flex-direction: row;
+          flex-wrap: wrap;
 
-            > li > img {
-                width: 40px; 
-                height: 40px;
-            }
+          > li > img {
+            width: 40px; 
+            height: 40px;
+          }
         }
       }
     }
@@ -228,9 +225,8 @@ section.sctn-detail {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); 
     z-index: 1;
-    }
+  }
 
-    
 }
 
 @media screen and (max-width: 576px) {
